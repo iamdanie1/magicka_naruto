@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magick AI</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    
+    <link rel="stylesheet" href="./src/css/reset2.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/js/index.js">
+</head>
+
+<body>
+    <header class="header">
+        <img src="./src/images/Naruto_logo_4k.png" alt="Logo Magick AI" width="144px" height="80px">
+    </header>
+    <main class="container">
+        <h1 class="products">Products</h1>
+        <div class="filter">
+            <div class="cards-categories">
+                <label for="categories">Categories</label>
+                <select id="categories" class="categories">
+                    <option value="">None</option>
+                    <option value="common">Common</option>
+                    <option value="rare">Rare</option>
+                    <option value="epic">Epic</option>
+                    <option value="legendary">Legendary</option>
+                </select>
+            </div>
+            
+        <div class="price-cards">
+            <label for="price">Max Price ($)</label>
+            <input type="text" id="price" class="price" placeholder="0">
+        </div>
+        <button class="button-filter">Show Results</button>
+        </div>
+        <ul class="cards">
+
+            <li class="card" data-categories="Legendary" data-price="1000">
+                <img src="./src/images/NARUTO_UZUMAKI_000.png"  alt="">
+                <div class="infos">
+                    <h2 class="char-name">Uzumaki Naruto</h2>
+                    <span class="category">Category: Legendary</span>
+                    <span class="price">$ 1000</span>
+                    <button class="btn-buy">Buy</button>
+                </div>
+            </li>
+
+            <li class="card" data-categories="Legendary" data-price="850">
+                <img src="./src/images/ITACHI_UCHIHA.png" alt="">
+                <div class="infos">
+                    <h2 class="char-name">Uchiha Itachi</h2>
+                    <span class="category">Category: Legendary</span>
+                    <span class="price">$ 850</span>
+                    <button class="btn-buy">Buy</button>
+                </div>
+            </li>
+
+            <li class="card" data-categories="Rare" data-price="500">
+                <img src="./src/images/KAKASHI_00.png" alt="">
+                <div class="infos">
+                    <h2 class="char-name">Hataki Kakashi</h2>
+                    <span class="category">Category: Rare</span>
+                    <span class="price">$ 500</span>
+                    <button class="btn-buy">Buy</button>
+                </div>
+            </li>
+
+            <li class="card" data-categories="Epic" data-price="750">
+                <img src="./src/images/ORIGINAL PAIN.png" alt="">
+                <div class="infos">
+                    <h2 class="char-name">Akatsuki ~ Pain</h2>
+                    <span class="category">Category: Epic</span>
+                    <span class="price">$ 750</span>
+                    <button class="btn-buy">Buy</button>
+                </div>
+            </li>
+
+            <li class="card" data-categories="Common" data-price="450">
+                <img src="./src/images/HINATA_HYUUGA.png" alt="">
+                <div class="infos">
+                    <h2 class="char-name">Hyuuga Hinata</h2>
+                    <span class="category">Category: Common</span>
+                    <span class="price">$ 450</span>
+                    <button class="btn-buy">Buy</button>
+                </div>
+            </li>
+
+            <li class="card" data-categories="Common" data-price="300">
+                <img src="./src/images/NII.png" alt=""> 
+                <div class="infos">
+                    <h2 class="char-name">Nii Yugito</h2>
+                    <span class="category">Category: Common</span>
+                    <span class="price">$ 300</span>
+                    <button class="btn-buy">Buy</button>
+                </div>
+            </li>
+
+        </ul>
+    </main>
+    <footer class="footer">©2025 Copyright  - All Rights Reserved</footer>
+    <script src="./src/js/index.js"></script>r
+</body>
+</html> 
